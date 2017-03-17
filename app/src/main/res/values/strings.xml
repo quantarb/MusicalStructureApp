@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Musical Structure App</string>
+
+    <string name="category_artists">Artists</string>
+
+    <string name="category_albums">Albums</string>
+
+    <string name="category_music">Music</string>
+
+    <string name="text_artists">This page contains a list of artists.  Create a Java class called artist.  Create a custom arrayadapter class to display the list of artist objects in a ListView.  Setup an onclick listener for each button that will nagivate the user to the details page when the button is clicked</string>
+
+    <string name="text_albums">This page contains a list of albums.  Create a Java class called album.  Create a custom arrayadapter class to display the list of album objects in a ListView.  Setup an onclick listener for each button that will nagivate the user to play music page when the button is clicked</string>
+
+    <string name="text_music">This page is for playing music.  Create onclick listeners for the play and pause button.  Use the media player class to play and pause an album inside the onclick listeners.</string>
+
+</resources>

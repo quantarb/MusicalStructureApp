@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.johnnylee.musicalstructureapp.AlbumsActivity">
+
+    <Button
+        android:id="@+id/album1"
+        style="@style/CategoryStyle"
+        android:background="@color/category_albums"
+        android:text="Album 1" />
+
+    <Button
+        android:id="@+id/album2"
+        style="@style/CategoryStyle"
+        android:background="@color/category_albums"
+        android:text="Album 2" />
+
+    <Button
+        android:id="@+id/album3"
+        style="@style/CategoryStyle"
+        android:background="@color/category_albums"
+        android:text="Album 3" />
+
+
+    <TextView
+        style="@style/TextStyle"
+        android:background="@color/category_albums"
+        android:text="@string/text_albums" />
+
+</LinearLayout>
